@@ -1,7 +1,0 @@
-- name: hello playbook
-  hosts: local
-  connection: local
-  tasks:
-  - name: print hello world
-    ansible.builtin.debug:
-      msg: "Hello World tommorow the game is about to change"
